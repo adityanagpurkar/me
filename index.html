@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-width=1.0">
+    <meta name="description" content="Portfolio of Aditya Nagpurkar, Computer Engineering student focusing on Data Engineering, AI/ML, and full-stack development.">
+    <meta property="og:title" content="Aditya Nagpurkar | Data & AI Software Engineer">
+    <meta property="og:description" content="Curious about data engineering and AI native software development.">
+    <title>Aditya Nagpurkar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">AN.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </button>
+        </div>
+    </nav>
+
+    <header id="hero" class="fade-in">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Aditya Nagpurkar</span></h1>
+            <h2>Data Engineering & AI Native Software Development</h2>
+            <p>I build intelligent data pipelines and scalable ML applications to solve complex engineering challenges.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="fade-in">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a final-year Computer Engineering student based in Nagpur, India, studying at St. Vincent Pallotti College of Engineering and Technology. With a strong foundation in Python, data structures, and algorithms, my expertise spans across Data Engineering, AI/ML models, and full-stack software development. Whether developing predictive models for regional climate challenges or writing custom compilers, I am driven by the intersection of raw data and practical software architecture.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Frameworks</h3>
+                    <p>Python, C/C++, JavaScript, SQL, HTML/CSS, FastAPI, Streamlit</p>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Data Engineering</h3>
+                    <p>PyTorch, Deep Learning, Docker, WSL 2, Data Pipelines, ETL</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Infrastructure</h3>
+                    <p>Git/GitHub, VS Code, Google Earth Engine, API Integrations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Multi-Hazard Disaster Prediction</h3>
+                    <p class="problem-statement">AI-powered flood and drought detection system for the Vidarbha region leveraging satellite imagery and meteorological data.</p>
+                    <div class="tech-stack"><span>Python</span><span>PyTorch</span><span>FastAPI</span><span>Streamlit</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com/adityanagpurkar/major_project_dldroughtflood_detection" target="_blank">GitHub Repository &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Real-Time Ecommerce Data Pipeline</h3>
+                    <p class="problem-statement">Robust streaming pipeline built to ingest, transform, and analyze live transactional ecommerce data at scale.</p>
+                    <div class="tech-stack"><span>Docker</span><span>Python</span><span>Kafka / Spark (Placeholder)</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com/adityanagpurkar/ecommerce-pipeline-placeholder" target="_blank">GitHub Repository &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>SQL Compiler utilizing LARK</h3>
+                    <p class="problem-statement">Custom SQL query compiler and optimizer featuring abstract syntax tree visualization and a web UI.</p>
+                    <div class="tech-stack"><span>Python</span><span>Lark</span><span>Graphviz</span><span>Streamlit</span></div>
+                    <div class="project-links">
+                        <a href="https://github.com/adityanagpurkar/sql-compiler-placeholder" target="_blank">GitHub Repository &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm currently preparing for technical placements and open to new opportunities in Data Engineering and Software Development.</p>
+            
+            <!-- Replace "YOUR_FORM_ENDPOINT" with your Formspree URL -->
+            <form action="https://formspree.io/f/YOUR_FORM_ENDPOINT" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com/adityanagpurkar" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/your-linkedin-placeholder" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aditya Nagpurkar. Built with plain HTML, CSS, and JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
